@@ -1,0 +1,100 @@
+
+*{
+       margin:0;
+       padding: 0;
+      }
+
+
+ html,body{
+       height: 100%;
+       width: 100%;
+       background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),                  url("../../media/examples/lizard.png");
+     
+
+       font-family: 'Roboto', sans-serif;
+}
+
+.container{
+       width: 100%;
+       height: 100%;
+     
+}
+.contacte-box{
+     flex-direction: row;
+       display: flex;
+       height: 50%;
+       
+}      
+.contacte-left{
+       width: 50%;
+       flex-basis: 69%;
+       padding: 40px 68px;
+       
+       
+}
+.contacte-right{
+       flex-basis: 40%;
+       padding: 40px;
+      
+
+
+}
+.container p{
+       margin-bottom: 40px;
+}
+.input-row{
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 20px;
+
+
+
+}
+
+     
+
+textarea{
+       width: 100%;
+       border:1pxsolid #ccc;
+       outline:none;
+       padding: 10px;
+       box-sizing:border-box ;
+
+
+
+}
+label{
+       margin-bottom: 6px;
+       display: block;
+       color: rgb(235, 244, 241);
+}
+button{
+       background: rgb(97, 159, 222);
+       width: 100px;
+       border: none;
+       outline:none;
+       color: rgb(255, 250, 250);
+       height:35px;
+       border-radius: 30PX;
+       margin-top: 20px;
+
+}
+@media only screen and (max-width: 768px) { 
+       .contacte-box{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between
+       }
+       .container{
+              width: 100%;
+              height: 100%;}
+              html,body{
+                     height: 100%;
+                     width: 100%;
+                     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),                  url("../../media/examples/lizard.png");
+                   
+              
+                     }
+                    
+              }
